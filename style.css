@@ -1,4 +1,5 @@
-body {
+@media (max-width: 768px) {
+    body {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,58 +8,58 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
+    }
+
+    h1 {
+        color: pink;
+        padding: 5vh;
+        margin-top: 20vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10vh;
+    }
+
+    .div-btns {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        width: 100vh;
+        height: 15vh;
+        top: 0vh;
+
+        gap: 10vh
+    }
+
+    button {
+        width: 15vh;
+        height: 7.5vh;
+        background-color: white;
+
+        border: black 0.5vh solid;
+        border-radius: 4vh;
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3vh;
+    }
+
+    button:hover {
+        background-color: rgb(154, 117, 117);
+        /*transform: translate(0, 30vh); */
+    }
+
+    #gay-icon {
+        width: 15vh;
+        height: auto;
+    }
+
+    /*#yes-btn{
+        position: fixed;
+        right: 10vh;
+        top: 5vh;
+    }
+
+    h2{
+        color: darkred;
+    }*/
 }
-
-h1 {
-    color: pink;
-    padding: 5vh;
-    margin-top: 20vh;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10vh;
-}
-
-.div-btns {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    width: 100vh;
-    height: 15vh;
-    top: 0vh;
-
-    gap: 10vh
-}
-
-button {
-    width: 15vh;
-    height: 7.5vh;
-    background-color: white;
-
-    border: black 0.5vh solid;
-    border-radius: 4vh;
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vh;
-}
-
-button:hover {
-    background-color: rgb(154, 117, 117);
-    /*transform: translate(0, 30vh); */
-}
-
-#gay-icon {
-    width: 15vh;
-    height: auto;
-}
-
-/*#yes-btn{
-    position: fixed;
-    right: 10vh;
-    top: 5vh;
-}
-
-h2{
-    color: darkred;
-}*/
-
