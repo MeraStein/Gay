@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 100px) {
     body {
     display: flex;
     flex-direction: column;
@@ -52,14 +52,4 @@
         width: 15vh;
         height: auto;
     }
-
-    /*#yes-btn{
-        position: fixed;
-        right: 10vh;
-        top: 5vh;
-    }
-
-    h2{
-        color: darkred;
-    }*/
 }
