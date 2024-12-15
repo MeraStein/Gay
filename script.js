@@ -13,7 +13,7 @@ yesBtn.addEventListener('click', function() {
 let flag = 1;
 noBtn.addEventListener('mouseenter', function() {
     let preTop = parseFloat(noBtn.style.marginTop) || 0;
-    let num = 25*flag;
+    let num = 35*flag;
     preTop += num;
     noBtn.style.marginTop = parseFloat(preTop) +'%';
     flag *= -1;
