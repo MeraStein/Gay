@@ -13,9 +13,9 @@ yesBtn.addEventListener('click', function() {
 let flag = 1;
 noBtn.addEventListener('mouseenter', function() {
     let preTop = parseFloat(noBtn.style.marginTop) || 0;
-    let num = 50*flag;
+    let num = 25*flag;
     preTop += num;
-    noBtn.style.marginTop = parseFloat(preTop) +'vh';
+    noBtn.style.marginTop = parseFloat(preTop) +'%';
     flag *= -1;
 });
 
